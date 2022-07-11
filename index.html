@@ -32,11 +32,8 @@
             <h1>Festival de inverno Nova Lima</h1>
             <div class="banner">
                 <img src="./assets/img/festival.png" alt="festival">
-                <p>Festival de Inverno de Nova Lima . 8 anos <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sed, consectetur fugit officiis iure voluptate fuga assumenda rerum neque dolore deserunt doloribus iste aliquam praesentium doloremque inventore velit necessitatibus veniam?
-                Aspernatur, unde soluta quae nisi nihil vero. Vel accusamus natus voluptates ullam in rerum impedit accusantium totam odit quas recusandae asperiores quia debitis, voluptate saepe adipisci tempora magni eius nemo.
-                Molestias laboriosam autem aliquid? Repellendus est, illo nihil, perspiciatis, libero dolorem et impedit commodi ex labore non suscipit veniam possimus cumque consectetur nam optio necessitatibus tempore odit illum totam temporibus.
-                Nemo consectetur recusandae perspiciatis doloribus quisquam cum nobis excepturi. Illum quisquam obcaecati possimus a! Vel, similique harum! Est possimus veritatis debitis quod, aut porro iusto molestias a voluptatibus, sit nemo.</p>
-                <strong><p>23 jul - 2022 • 13:00 > 24 jul - 2022 • 22:00
+                <p>Festival de Inverno de Nova Lima . 8 anos </p>
+                <strong>23 jul - 2022 • 13:00 > 24 jul - 2022 • 22:00
                 <br> Evento presencial em Alphaville / Lagoa dos Ingleses , Nova Lima - MG</br></p></strong>
             </div>
         </section>
@@ -53,12 +50,28 @@
             </ul>
         </section>
 
-        <form action="Cadastro">
-            <input type="text" id="Nome"><label for="Nome">Nome </label>
-            <input type="month">
+        <h1>Fale conosco</h1>
+        <form class= "Cadastro" action="javascript:submitFormContact()">
+            <div class="form-group">
+                <input class="input-form" type="text" id="nome" placeholder="Nome">
+                <input class="input-form" type="email" id="email" placeholder="E-mail">
+            </div>
+
+            <textarea class="text-area" name="story" id="descricao" placeholder="Digite seu texto" rows="5"></textarea>
+        
+            <button type="submit">Enviar</button>
+
         </form>
 
     </main>
     
+    <footer>
+        <ul>
+            <li><h1>Contato</h1><a href="#">eventosmagicos@template.com.br</a></li>
+            <li><h1>Endereço</h1><a href="#">Rua das Araras, 0000 Centro Comercial - Praia Grande (SP)</a></li>
+            <li><h1>Desenvolvimento</h1><p>Otavio Neri © Copyright 2022</p></li>
+        </ul>
+    </footer>
 </body>
+    <script src="./index.js"></script>
 </html>

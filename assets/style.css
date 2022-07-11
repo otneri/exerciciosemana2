@@ -3,6 +3,7 @@
     padding: 0px;
     }
 
+
 body{
     /* background-color: black;  */
     background-color: black;
@@ -13,7 +14,7 @@ body{
 
 /* header */
 .cabeçalho {
-    padding: 0px 200px;
+    padding: 0px 20px;
     background-color: white;
     color: black;
     height: 240px;
@@ -38,10 +39,19 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: rgb(2, 5, 179);
+    text-decoration: underline;
 }
 
 /* seção principal */
-
+main h1{
+    margin: 20px 200px;
+}
 .eventoprincipal{
     width: 100%;
 }
@@ -50,14 +60,12 @@ nav ul li a{
     
 }
 .banner{
-    /* display: flex;
-    align-items: center; */
     padding: 10px 200px ;
     justify-content: space-between;
 }
 
 .eventossecundarios ul {
-    text-align: center      ;
+    text-align: justify;
     display: flex;
     flex-wrap: wrap;
     margin: 0px 200px;
@@ -65,18 +73,59 @@ nav ul li a{
     justify-content: center;
     flex: 1 1 200px;
     background-color: rgba(45, 43, 43, 0.607);
+    list-style: none;
+}
+.eventossecundarios ul li h1{
 
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .eventossecundarios ul li img {
     max-width: 200px;
 }
 .eventossecundarios ul li {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 20px;
-    max-width: 23%;
-    flex-wrap: wrap;
-    /* flex: 1 1 300px; */
-
+    margin: 10px 20px; 
+    max-width: 24%; 
+    flex-wrap: wrap; 
 }
+
+/* Formulário */
+form {
+    margin: 0px 200px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Rodapé */
+footer{
+    background-color: white;
+    color: black;
+    
+    padding: 0px 20px;
+   
+}
+footer ul {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li{
+    
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer h1{
+    font-size: medium;
+}
+
